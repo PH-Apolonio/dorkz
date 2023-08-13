@@ -33,7 +33,7 @@ function redirectToSearch() {
   } else if (dorkType === "githubdork") {
     searchUrl = `https://github.com/search?q="%2A.${targetUrl}"`;
   } else if (dorkType === "subdomains") {
-    searchUrl = `https://crt.sh/?q=${encodeURIComponent(targetUrl)}`;
+    searchUrl = `https://crt.sh/?q=%.${encodeURIComponent(targetUrl)}`;
   } else if (dorkType === "phpwayback") {
     searchUrl = `https://web.archive.org/cdx/search?url=${encodeURIComponent(targetUrl)}%2F&matchType=domain&collapse=urlkey&output=text&fl=original&filter=urlkey:.*php&limit=100000`;
   } else if (dorkType === "openbugbounty") {
