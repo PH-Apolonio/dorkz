@@ -1,0 +1,75 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(45deg, #000000, #00ff73, #ffffff );
+  background-size: 400% 400%;
+  animation: gradientAnimation 10s linear infinite;
+  margin: 0;
+  height: 100vh;
+  overflow: hidden;
+
+}
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+h1 {
+  text-align: center;
+  color: #f3f3f3;
+  margin: 50px auto;
+
+}
+
+.search-container {
+  text-align: center;
+  margin: 10px auto;
+}
+
+#targetUrl {
+  width: 300px;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+#dorkType {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+#searchBtn {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#results {
+  margin-top: 20px;
+}
+
+
+.marquee-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  overflow: hidden; /* Hide overflow to prevent horizontal scrollbars */
+}
+
+.contact-text {
+  position: fixed;
+  bottom: 10px; /* Adjust the value as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 18px; /* Adjust the font size */
+  color: white;
+}
