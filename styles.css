@@ -1,9 +1,9 @@
 
 body {
   font-family: Arial, sans-serif;
-  background: linear-gradient(45deg, #000000, #00ff73, #ffffff );
+  background: linear-gradient(45deg, #000000, #00ff73, #bdbdbd, #2449ff, #000000, #ff2525, #bdbdbd, #000000 );
   background-size: 400% 400%;
-  animation: gradientAnimation 10s linear infinite;
+  animation: gradientAnimation 20s linear infinite;
   margin: 0;
   height: 100vh;
   overflow: hidden;
