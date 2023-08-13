@@ -71,7 +71,7 @@ function constructSearchQuery(targetUrl, dorkType) {
     securityheaders: "site:" + targetUrl,
     xss: "site:" + targetUrl + " inurl:q OR inurl:s OR inurl:search OR inurl:id OR inurl:lang OR inurl:keyword OR inurl:query OR inurl:page OR inurl:view Or inurl:type OR inurl:url ",
     bxss: "site:" + targetUrl + " intitle:contact.php OR intitle:contact us OR intitle:contactus.php OR intitle:contactus.aspx OR intitle:contactus.asp OR intitle:contactus.html OR intitle:contact-us.html OR intitle:contact_us.html OR intitle:contact.html OR intitle:contactus.html OR inurl:feedback OR inurl:Send Us a Message OR intitle:Send Us a Message OR intitle:support OR intext:Please choose a request type below OR inurl:submit ",
-    sqli: "site:" + targetUrl + " intext:You have an error in your SQL syntax OR inurl:php?id= OR intext:Warning: mysql_fetch_assoc() OR intext:SQL Server Driver][SQL Server] OR intext:supplied argument is not a valid MySQL result resource OR intext:Unclosed quotation mark after the character string "
+    sqli: "site:" + targetUrl + " inurl:php?id= OR inurl:php "
     // Add more dork types here
   };
 
