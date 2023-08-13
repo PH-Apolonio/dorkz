@@ -43,7 +43,11 @@ function redirectToSearch() {
   } else {
     const searchQuery = constructSearchQuery(targetUrl, dorkType);
     searchUrl = "https://www.google.com/search?q=" + encodeURIComponent(searchQuery);
+  } else if (dorkType === "web") {
+    searchUrl = `https://w3techs.com/sites/info/${encodeURIComponent(targetUrl)}`;
+  
   }
+  
 
   window.open(searchUrl, "_blank");
   
