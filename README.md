@@ -1,1 +1,1 @@
-# https://ph-apolonio.github.io/dorkz/
+# https://ph-apolonio.github.io/dorkz
