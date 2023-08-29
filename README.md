@@ -1,5 +1,5 @@
 # https://ph-apolonio.github.io/dorkz
 
-this is an ![image] (`"'><img src=xxx:x \x20onerror=javascript:alert(1)>)
+this is an ![image](https://bugcrowd.com/linktree-mbb-og)
 
 
